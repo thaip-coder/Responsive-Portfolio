@@ -170,9 +170,18 @@ p {
 }
 
 @media (max-width: 768px) {
-
+    .header {width: 100%;}
+    .container {width: 100%;}
+    .footer {width: 100%;}
+    .content {margin-left: 20px;}
+    .contactCont {margin-left: 20px;}
+    .portfolioCont {margin-left: 20px;}
+    .title { margin-left: 20px;}
 }
 
-@media (max-width: 908px) {
-
+/*@media (min-width: 980px) {
+    .title {display: static; margin-left: 40px;};
+    .footer {display: static; padding-left: 40px;};
+    .container {margin-left: 40px;}
+ 
 }
