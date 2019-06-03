@@ -181,3 +181,17 @@ p {
     color: #fff;
     font-size: .85rem;
 }
+
+/* Media Queries */
+
+@media (max-width: 640px) {
+    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 908px) {
+
+}
