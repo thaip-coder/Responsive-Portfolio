@@ -139,6 +139,11 @@ p {
     gap: 20px;
 }
 
+.columnPic {
+    width: 200px;
+    height: 125px;
+}
+
 /* Footer */
 
 .footer {
@@ -160,6 +165,8 @@ p {
     #mePic {width: 100%; height: auto;}
     .title {clear: both; text-align: center; width: 100%;}
     .nav {clear: both; text-align: center; width: 100%;}
+    .columns {display: block;}
+    .columnPic {width: 100%; height: auto; margin-bottom: 20px;}
 }
 
 @media (max-width: 768px) {
