@@ -160,7 +160,6 @@ p {
     #mePic {width: 100%; height: auto;}
     .title {clear: both; text-align: center; width: 100%;}
     .nav {clear: both; text-align: center; width: 100%;}
-    
 }
 
 @media (max-width: 768px) {
