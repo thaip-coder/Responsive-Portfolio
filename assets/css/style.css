@@ -78,6 +78,8 @@ p {
     margin-right: 15px;
     margin-bottom: 8px;
     margin-top: 5px;
+    width: 100px;
+    height: 130px;
 }
 
 /* Contact Body */
@@ -137,39 +139,6 @@ p {
     gap: 20px;
 }
 
-/*
-#portImg {
-    display: block;
-}
-
-#portImg2 {
-    display: inline-flexbox;
-}
-
-/*
-#buttons {
-    position: relative;
-    width: 50%
-}
-
-#buttons img {
-    width: 100%;
-    height: auto;
-}
-
-#buttons .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background: #4aaaa5;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-} 
-*/
-
 /* Footer */
 
 .footer {
@@ -185,6 +154,12 @@ p {
 /* Media Queries */
 
 @media (max-width: 640px) {
+    .header {width: 100%;}
+    .container {width: 100%;}
+    .footer {width: 100%;}
+    #mePic {width: 100%; height: auto;}
+    .title {clear: both; text-align: center; width: 100%;}
+    .nav {clear: both; text-align: center; width: 100%;}
     
 }
 
