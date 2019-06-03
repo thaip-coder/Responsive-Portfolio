@@ -158,7 +158,10 @@ p {
 
 /* Media Queries */
 
-/@media (min-width: 980px) {
+@media screen and (max-width: 980px) {
+    .header {width: 960px}
+    .container {width: 90%}
+    .footer {width: 960px}
    /*.title {display: static; margin-left: 40px;};
     .footer {display: static; padding-left: 40px;};
     .container {margin-left: 40px;} */
@@ -166,12 +169,8 @@ p {
 
 @media screen and (max-width: 768px) {
     .header {width: 100%;}
-    .container {width: 100%;}
+    .container {width: 95%;}
     .footer {width: 100%;}
-    .content {margin-left: 20px;}
-    .contactCont {margin-left: 20px;}
-    .portfolioCont {margin-left: 20px;}
-    .title { margin-left: 20px;}
 }
 
 @media screen and (max-width: 640px) {
@@ -179,7 +178,7 @@ p {
     .container {width: 100%;}
     .footer {width: 100%;}
     #mePic {width: 100%; height: auto;}
-    .title {clear: both; text-align: center; width: 100%;}
+    .title {text-align: center; width: 100%;}
     .nav {clear: both; text-align: center; width: 100%;}
     .columns {display: block;}
     .columnPic {width: 100%; height: auto; margin-bottom: 20px;}
