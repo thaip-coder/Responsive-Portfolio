@@ -160,18 +160,13 @@ p {
 
 @media screen and (max-width: 980px) {
     .container {width: 90%;}
-    .content {width: 70%;}
-    .contactCont {width: 70%;}
-    .portfolioCont {width: 70%;}
-   /*.title {display: static; margin-left: 40px;};
-    .footer {display: static; padding-left: 40px;};
-    .container {margin-left: 40px;} */
+    .content {width: 80%;}
+    .contactCont {width: 80%;}
+    .portfolioCont {width: 80%;}
 }
 
 @media screen and (max-width: 768px) {
-    .header {width: 100%;}
     .container {width: 95%;}
-    .footer {width: 100%;}
     .content {width: 95%;}
     .contactCont {width: 95%;}
     .portfolioCont {width: 95%;}
@@ -181,13 +176,13 @@ p {
     .container {width: 100%;}
     .footer {width: 100%;}
     #mePic {width: 100%; height: auto;}
-    .title {text-align: center; width: 100%;}
+    .title {text-align: center; width: 100%; padding-right: 0; padding-left: 0;}
     .nav {text-align: center; width: 100%;}
     .columns {display: block;}
     .columnPic {width: 100%; height: auto; margin-bottom: 20px;}
-    .content {width: 100%;}
-    .contactCont {width: 100%;}
-    .portfolioCont {width: 100%;}
+    .content {width: 100%; padding-right: 0; padding-left: 0;}
+    .contactCont {width: 100%; padding-right: 0; padding-left: 0;}
+    .portfolioCont {width: 100%; padding-right: 0; padding-left: 0;}
 }
 
 
