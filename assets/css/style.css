@@ -180,6 +180,9 @@ p {
     .nav {text-align: center; width: 100%;}
     .columns {display: block;}
     .columnPic {width: 100%; height: auto; margin-bottom: 20px;}
+    .bio {padding-right: 0;}
+    .form {padding-right: 0;}
+    #form2 {padding-right: 0;}
     .content {width: 100%; padding-right: 0; padding-left: 0;}
     .contactCont {width: 100%; padding-right: 0; padding-left: 0;}
     .portfolioCont {width: 100%; padding-right: 0; padding-left: 0;}
